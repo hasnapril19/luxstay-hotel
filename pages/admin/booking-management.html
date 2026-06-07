@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Booking Management</title>
+
+    <link rel="stylesheet"
+    href="../../css/style.css">
+
+</head>
+
+<body>
+
+<div class="admin-container">
+
+    <h1>Booking Management</h1>
+
+    <div class="dashboard-cards">
+
+        <div id="totalBooking"></div>
+
+        <div id="paidBooking"></div>
+
+        <div id="unpaidBooking"></div>
+
+        <div id="checkedInBooking"></div>
+
+        <div id="checkedOutBooking"></div>
+
+        <div id="cancelledBooking"></div>
+
+        <div id="totalRevenue"></div>
+
+    </div>
+
+    <input
+    type="text"
+    id="searchBooking"
+    placeholder="Search Booking ID, Customer, Room, Status">
+
+    <table class="booking-table">
+
+        <thead>
+
+            <tr>
+
+                <th>Booking ID</th>
+
+                <th>Customer</th>
+
+                <th>Room</th>
+
+                <th>Check In</th>
+
+                <th>Check Out</th>
+
+                <th>Payment</th>
+
+                <th>Total</th>
+
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="bookingTable">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="../../js/booking-management.js"></script>
+
+</body>
+</html>

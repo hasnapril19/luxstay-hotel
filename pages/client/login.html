@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Login LuxStay</title>
+
+  <link rel="stylesheet"
+  href="../../css/style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+
+<section class="login-page">
+
+  <div class="login-overlay"></div>
+
+  <div class="login-box">
+
+    <div class="login-logo">
+
+      <i class="fa-solid fa-hotel"></i>
+
+      <h1>LuxStay</h1>
+
+      <p>
+        Luxury Hotel Experience
+      </p>
+
+    </div>
+
+    <!-- EMAIL -->
+
+    <div class="input-box">
+
+      <input
+      type="email"
+      id="email"
+      placeholder="Enter Email">
+
+    </div>
+
+    <!-- PASSWORD -->
+
+    <div class="password-box">
+
+      <input
+      type="password"
+      id="password"
+      placeholder="Enter Password">
+
+      <i
+      class="fa-solid fa-eye"
+      id="eye"
+      onclick="togglePassword()"></i>
+
+    </div>
+
+    <!-- LOGIN BUTTON -->
+
+    <button onclick="loginUser()">
+      Login
+    </button>
+
+    <!-- REGISTER -->
+
+    <p class="back-home">
+
+      Don't have an account?
+
+      <a href="register.html">
+        Register
+      </a>
+
+    </p>
+
+    <!-- BACK HOME -->
+
+    <p class="back-home">
+
+      Back to
+
+      <a href="../../index.html">
+        Home
+      </a>
+
+    </p>
+
+  </div>
+
+</section>
+
+<script src="../../js/login.js"></script>
+
+</body>
+</html>
